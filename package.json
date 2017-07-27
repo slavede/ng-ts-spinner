@@ -1,7 +1,13 @@
 {
   "name": "ng-ts-spinner",
-  "version": "0.1.0",
+  "version": "0.9.0",
   "license": "MIT",
+  "author" : "Slaven Tomac <slaven.tomac@gmail.com>",
+  "bugs" : {
+      "url" : "https://github.com/slavede/ng-ts-spinner/issues",
+      "email" : "slaven.tomac@gmail.com"
+  },
+  "homepage" : "https://github.com/slavede/ng-ts-spinner",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",

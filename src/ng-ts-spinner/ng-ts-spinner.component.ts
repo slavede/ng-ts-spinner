@@ -4,7 +4,7 @@ import { AfterViewInit, Component, DoCheck, ElementRef, Input, OnChanges, OnInit
 declare var Spinner: any;
 
 @Component({
-  selector: '[ng-ts-spinner]',
+  selector: 'ng-ts-spinner',
   templateUrl: './ng-ts-spinner.component.html',
   styleUrls: ['./ng-ts-spinner.component.scss']
 })
