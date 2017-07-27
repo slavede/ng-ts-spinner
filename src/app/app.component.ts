@@ -6,5 +6,16 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  public spinnerOptions;
+  public spinnerOn = false;
+
+  constructor() {
+    this.spinnerOptions = {
+      direction : -1
+    };
+  }
+
+  changeDirection() {
+    this.spinnerOptions.direction = -1 * this.spinnerOptions.direction;
+  }
 }
