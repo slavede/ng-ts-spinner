@@ -1,6 +1,6 @@
 # NgTsSpinner
 
-Angular (Typescript) wrapper around http://spin.js.org/
+Angular (typescript) Spinner. Wrapper around spinner: http://spin.js.org/
 
 ## Installation
 
