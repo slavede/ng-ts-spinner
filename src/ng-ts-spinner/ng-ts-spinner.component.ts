@@ -1,10 +1,18 @@
-import { Observable } from 'rxjs/Rx';
-import { AfterViewInit, Component, DoCheck, ElementRef, Input, OnChanges, OnInit, SimpleChanges } from '@angular/core';
+import {
+  AfterViewInit,
+  Component,
+  DoCheck,
+  ElementRef,
+  Input,
+  OnChanges,
+  OnInit,
+  SimpleChanges
+} from '@angular/core';
 
 declare var Spinner: any;
 
 @Component({
-  selector: 'ng-ts-spinner',
+  selector: '[ng-ts-spinner]',
   templateUrl: './ng-ts-spinner.component.html',
   styleUrls: ['./ng-ts-spinner.component.scss']
 })
@@ -52,7 +60,7 @@ export class NgTsSpinnerComponent implements OnChanges, DoCheck {
     if (spinOnValue !== undefined) {
       if (spinOnValue === true) {
         this.spinner = new Spinner(this.mergedOptions).spin(this.elementRef.nativeElement);
-      } else {
+      } else if (this.spinner) {
         this.spinner.stop();
       }
     }

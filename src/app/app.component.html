@@ -1,6 +1,11 @@
 <h1>
   <button (click)="spinnerOn = !spinnerOn">Toggle Spin</button>
   <button (click)="changeDirection()">Toggle Direction</button>
-  <ng-ts-spinner class="spinner-here" [spinOn]="spinnerOn" [options]="spinnerOptions" style="position:relative;width:300px;height:300px;display:inline-block;background-color:gray">
-  </ng-ts-spinner>
+  <div
+    ng-ts-spinner
+    class="spinner-here"
+    [spinOn]="spinnerOn"
+    [options]="spinnerOptions"
+    style="position:relative;width:300px;height:300px;display:inline-block;background-color:gray">
+  </div>
 </h1>
