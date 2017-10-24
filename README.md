@@ -40,3 +40,8 @@ spinOn - when set to true, spinner spins, when false, spinner is removed
 spinnerOptions - options based on options from http://spin.js.org/. It can be empty, it will use defaults
 
 When changing spinnerOptions, spinner should be stopped, and then again spinned to apply changes of the options.
+
+
+#### Fixes
+##### 1.0.1 
+* Spinner doesn't add extra div to the placeholder
