@@ -1,9 +1,9 @@
 import { NgModule } from '@angular/core';
-import { NgTsSpinnerComponent } from './ng-ts-spinner.component';
+import { NgTsSpinnerDirective } from './ng-ts-spinner.directive';
 
 @NgModule({
-  declarations : [NgTsSpinnerComponent],
-  exports: [NgTsSpinnerComponent]
+  declarations : [NgTsSpinnerDirective],
+  exports: [NgTsSpinnerDirective]
 })
 export class NgTsSpinnerModule {
 
