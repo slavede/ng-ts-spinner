@@ -43,5 +43,8 @@ When changing spinnerOptions, spinner should be stopped, and then again spinned 
 
 
 #### Fixes
+##### 1.2.0
+Restricted spin.js dependency to be under 3.0.0 because 3.0.0 removed spin.min.js.
+
 ##### 1.0.1 
 * Spinner doesn't add extra div to the placeholder
