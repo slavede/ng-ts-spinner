@@ -8,7 +8,7 @@
   },
   "include": [
     "./ng-ts-spinner/*.ts",
-    "../../index.ts"
+    "../index.ts"
   ],
   "exclude": [
     "test.ts",
