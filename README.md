@@ -17,7 +17,7 @@ In case you are using Angular CLI, add spin.js (it will be downloaded together w
 ### Import module
 
 ```
-import { NgTsSpinnerModule } from 'ng-ts-spinner/src/ng-ts-spinner/ng-ts-spinner.module';
+import { NgTsSpinnerModule } from 'ng-ts-spinner';
 . . .
 @NgModule({
   . . .
@@ -37,12 +37,19 @@ import { NgTsSpinnerModule } from 'ng-ts-spinner/src/ng-ts-spinner/ng-ts-spinner
 #### Properties
 spinOn - when set to true, spinner spins, when false, spinner is removed
 
+overlayWhileSpin - if true, it will display overlay, making everything non-clickable where it is spinning (make sure parent element has positioning set)
+
 spinnerOptions - options based on options from http://spin.js.org/. It can be empty, it will use defaults
 
-When changing spinnerOptions, spinner should be stopped, and then again spinned to apply changes of the options.
+When changing spinnerOptions, spinner should be stopped, and then again spin to apply changes of the options.
 
 
 #### Fixes
+
+##### 1.3.0
+* Added support for overlayWhileSpin
+* Added index.ts to have nicer import (only name of the module)
+
 ##### 1.2.0
 * Restricted spin.js dependency to be under 3.0.0 because 3.0.0 removed spin.min.js.
 
