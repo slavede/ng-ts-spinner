@@ -15,5 +15,9 @@
       "es2016",
       "dom"
     ]
-  }
+  },
+  "include": [
+    "src/ng-ts-spinner/*.ts",
+    "index.ts"
+  ]
 }
