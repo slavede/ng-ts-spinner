@@ -44,7 +44,15 @@ spinnerOptions - options based on options from http://spin.js.org/. It can be em
 When changing spinnerOptions, spinner should be stopped, and then again spin to apply changes of the options.
 
 
-#### Fixes
+#### Release notes
+
+##### 1.5.0
+
+BREAKING CHANGE: Change the way you import module to:
+
+```ts
+import { NgTsSpinnerModule } from 'ng-ts-spinner';
+```
 
 ##### 1.3.0
 * Added support for overlayWhileSpin
