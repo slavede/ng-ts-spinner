@@ -35,11 +35,11 @@ import { NgTsSpinnerModule } from 'ng-ts-spinner';
 ```
 
 #### Properties
-spinOn - when set to true, spinner spins, when false, spinner is removed
+**spinOn** - when set to true, spinner spins, when false, spinner is removed
 
-overlayWhileSpin - if true, it will display overlay, making everything non-clickable where it is spinning (make sure parent element has positioning set)
+**overlayWhileSpin** - if true, it will display overlay, making everything non-clickable where it is spinning (make sure parent element has positioning set)
 
-spinnerOptions - options based on options from http://spin.js.org/. It can be empty, it will use defaults
+**spinnerOptions** - options based on options from http://spin.js.org/. It can be empty, it will use defaults
 
 When changing spinnerOptions, spinner should be stopped, and then again spin to apply changes of the options.
 
@@ -48,7 +48,7 @@ When changing spinnerOptions, spinner should be stopped, and then again spin to 
 
 ##### 1.5.0
 
-BREAKING CHANGE: Change the way you import module to:
+**BREAKING CHANGE**: Change the way you import module to:
 
 ```ts
 import { NgTsSpinnerModule } from 'ng-ts-spinner';
