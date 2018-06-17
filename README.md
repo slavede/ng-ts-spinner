@@ -53,7 +53,7 @@ When changing spinnerOptions, spinner should be stopped, and then again spin to 
 
 ##### 1.6.0
 
-New way of installing dependency. Spin.js has to be installed manually (since npm3+ doesn't install dependency automatically).
+* New way of installing dependency. **Spin.js has to be installed manually** (since npm3+ doesn't install dependency automatically).
 
 ##### 1.5.0
 
