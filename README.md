@@ -2,8 +2,6 @@
 
 Angular (typescript) Spinner. Wrapper around spinner: http://spin.js.org/ (<3.0.0 version).
 
-Currently supporting Angular versions 4 and 5.
-
 ## Installation
 
 It has dependency on spin.js. It doesn't include it in bundle so you have to isntall it yourself (<3.0.0 until #3 is fixed).
