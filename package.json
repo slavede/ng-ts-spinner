@@ -1,6 +1,6 @@
 {
   "name": "ng-ts-spinner",
-  "version": "1.6.0",
+  "version": "1.6.2",
   "license": "MIT",
   "author": "Slaven Tomac <slaven.tomac@gmail.com>",
   "bugs": {
@@ -32,6 +32,9 @@
     "spin.js": "^2.3.2",
     "zone.js": ">=0.8.14"
   },
+  "bundledDependencies":[
+    "spin.js"
+  ],
   "devDependencies": {
     "@angular/cli": "1.2.5",
     "@angular/compiler-cli": "^4.0.0",
