@@ -51,6 +51,9 @@ When changing spinnerOptions, spinner should be stopped, and then again spin to 
 
 #### Release notes
 
+##### 1.7.0
+**Breaking change**: Added support for Angular6+. Now only support Angular6+, for below version, use 1.6.x
+
 ##### 1.6.0
 
 * New way of installing dependency. **Spin.js has to be installed manually** (since npm3+ doesn't install dependency automatically).
